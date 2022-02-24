@@ -94,29 +94,11 @@ flex-wrap:wrap;
 
 .content-area {
   width: 100%;
-  /* border-style: solid;
-  border-width: 1px;
-  border-color: green; */
   flex-grow: 1;
   margin: 15px;
 }
-.content-area-image {
-}
 
-/* .project-images {
-display: flex;
-border-radius: 3px;
-flex-wrap:wrap;
-flex-direction: column;
-max-width: 33%;
-} */
-
-figcaption {
-  width: 33%;
-  text-align: center;
-}
-
-
+/* Formatting settings for top of each section (about, projects, contact) */
 .content-header {
   letter-spacing: 2px;
   background: linear-gradient(90deg, #F4E784 0%,  #FC8EBA 50%, #AF8BEC 100%);
@@ -124,6 +106,7 @@ figcaption {
   color: white;
   border-radius: 5px;  
 }
+/* Pink shadow appears underneath section heading when hovered */
 .content-header:hover {
   box-shadow: 10px 10px 5px #f8c9dc;
 
@@ -137,20 +120,21 @@ figcaption {
   align-items:center;
   align-content:space-around;
 }
-
+/* Structure of project images */
 .row {
   display: flex;
   flex-wrap: wrap-reverse;
 }
-
+/* Setting unique paragraph size for text within row class */
 .row p{
   font-size: 1rem;
 }
+
 .column {
   flex: 33.33%;
   padding: 5px;
 }
-
+/* Sets footer characteristics, including background and organisation of elements. */
 footer {
   margin-top: 40px;
   text-align: center;
@@ -161,17 +145,17 @@ footer {
   align-items: center;
   justify-content:space-evenly;
 }
-
-footer, header>a {
+/* Sets header link text colour and style */
+header>a {
   color: white;  
   text-transform: uppercase;
   text-decoration: none;
   }
-
+/* Aligns elements within contact id and content-body class to the centre */
   #contact .content-body {
     justify-content: center;
   }
-
+/* Sets body a tags text colour + style */
   body>a {
     color: #808080;  
     text-transform: uppercase;
@@ -184,33 +168,3 @@ footer, header>a {
     width: 100%;
   }
 }
-/* Responsive layout - makes a two column-layout instead of four columns
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-/* @media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-
-.row {
-    display: flex;
-  }
-  
-  .column {
-    flex-wrap: nowrap;
-    padding: 5px;
-  }
-
-  @media screen and (max-width: 815px) {}
-    .column {
-      width: 100%;
-    }
-    .nav-list {
-        display: block;} */
