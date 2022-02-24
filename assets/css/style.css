@@ -1,5 +1,6 @@
 .nav {
-    display: flex;
+  display: flex;
+  align-items: center;
     align-items: center;
     justify-content:space-around;
     background: linear-gradient(90deg, #F4E784 0%,  #FC8EBA 50%, #AF8BEC 100%);
@@ -8,6 +9,8 @@
 .nav-list {
 padding-left: 0;
 display: flex;
+flex-direction: row;
+flex-wrap: wrap;
 
 }
 
@@ -35,8 +38,6 @@ color: var(--light-color);
 
 .header {
     display: flex;
-    margin-left: 50px;
-    margin-right: 50px;
     margin-top: 60px;
     margin-bottom: 50px;
     align-items: center;
@@ -167,6 +168,7 @@ header>a {
   .header {
     display:flex;
     flex-wrap: nowrap;
+      flex-direction: column-reverse;
   }
   .column {
     width: 100%;
