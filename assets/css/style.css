@@ -80,6 +80,7 @@ line-height: 1;
   border-color: #cacaca;
   border-radius: 5px;
   padding: 2px 60px;
+  margin: 5px;
 
 }
 .button:hover {
@@ -204,4 +205,12 @@ header>a {
     align-items: center;
     word-wrap: break-word;
   }
+  }
+  a {
+    color: #808080;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color:white;
   }
