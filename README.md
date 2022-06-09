@@ -1,10 +1,29 @@
-# portfolio-homework
+# Portfolio Homework
 
-Porfolio of Kirsten Segavac
+## Project Description
+This project showcases Kirsten's previously completed website projects. These include a variety of small business websites and sites for projects in the UWA Full Stack Developer Bootcamp course. This project also contains contact information for Kirsten.
+    
+## License
+![License](https://img.shields.io/badge/licence-Unlicense-blueviolet)
+This project is licensed under an Unlicense License.
 
-# Description
-Porfolio showcases about, links to previous work and contact information.
+## Table of Contents
+    
+   - [Installation Instructions](#installation-instructions) 
+   - [Usage Information](#usage-information) 
+   - [Contribution Information](#contribution-information) 
+   - [Questions](#questions) 
 
-# Dependencies
-No prerequisites required.
 
+## Installation Instructions
+No installation required, simply open the link.    
+   
+## Usage Information
+Open the link in your browser.    
+
+## Contribution Information
+Contributors on this project are:
+kirstens25 - www.github.com/kirstens25
+
+## Questions
+If you have any questions about this project, please contact the project creator: kirstens25 via email at kirstensegavac@gmail.com.
